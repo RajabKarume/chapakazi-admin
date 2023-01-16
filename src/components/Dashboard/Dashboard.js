@@ -13,8 +13,8 @@ import { IconContext }from 'react-icons';
 function Dashboard() {
 
     const [sidebar, setSidebar] = useState(false);
-    const showSidebar = () => setSidebar(!sidebar);
-    const [trigger, setTrigger] = useState(false)
+    // const showSidebar = () => setSidebar(!sidebar);
+    // const [trigger, setTrigger] = useState(false)
 
   return (
     <>
@@ -34,17 +34,17 @@ function Dashboard() {
             {/* <div className="header1">
             <h1>Admin Dashboard</h1> */}
             {/* </div> */}
-            <Link to="#" className="menu-bars">
+            {/* <Link to="#" className="menu-bars">
               <FaIcons.FaBars />
-            </Link>
+            </Link> */}
           </div>
           <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
             <ul className="nav-menu-items">
-              <li className="navbar-toggle">
-                <Link to="#" className="menu-bars">
+              {/* <li className="navbar-toggle"> */}
+                {/* <Link to="#" className="menu-bars">
                   {/* <AiIcons.AiOutlineCloseCircle /> */}
-                </Link>
-              </li>
+                {/* </Link> */}
+              {/* </li> */}
               {SidebarData.map((item, index) => {
                 return (
                   <li key={index} className={item.cName}>
