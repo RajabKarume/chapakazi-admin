@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Customer.css";
 
 
@@ -17,24 +18,28 @@ function Sidebar(){
                         <span className="option-name">Overview</span>
                     </div>
                 </div>
-                <div className="options">
-                    <img alt="" className="options-icon" src="https://cdn-icons-png.flaticon.com/128/3524/3524636.png" />
-                    <div className="option-info">
-                        <span className="option-name">Handymen</span>
+                <Link to="/handyman" >
+                    <div className="options">
+                        <img alt="" className="options-icon" src="https://cdn-icons-png.flaticon.com/128/3524/3524636.png" />
+                        <div className="option-info">
+                            <span className="option-name">Handymen</span>
+                        </div>
                     </div>
-                </div>
+                </Link>
                 <div className="options">
                     <img alt="" className="options-icon" src="https://cdn-icons-png.flaticon.com/128/3524/3524636.png" />
                     <div className="option-info">
                         <span className="option-name">Jobs</span>
                     </div>
                 </div>
-                <div className="options">
-                    <img alt="" className="options-icon" src="https://cdn-icons-png.flaticon.com/128/3524/3524636.png" />
-                    <div className="option-info">
-                        <span className="option-name">Customers</span>
+                <Link to="/customer" >
+                    <div className="options">
+                        <img alt="" className="options-icon" src="https://cdn-icons-png.flaticon.com/128/3524/3524636.png" />
+                        <div className="option-info">
+                            <span className="option-name">Customers</span>
+                        </div>
                     </div>
-                </div>
+                </Link>
             </div>
             <div className="sidebar-bottom">
                 <div className="options">

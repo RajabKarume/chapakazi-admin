@@ -29,7 +29,7 @@ function Customer(){
                 <Sidebar />
             </div>
             <div className="customer-main">
-                <MainPage />
+                <MainPage header="Customer"/>
             </div>
         </div>
     )
