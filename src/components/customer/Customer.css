@@ -50,3 +50,31 @@ ul{
     font-size: 25px;
     color: #f4f4f4;
 }
+.table{
+    width: 100%;
+    border: 1px solid;
+    font-size: 30px;
+}
+.row{
+    border-bottom: 1px solid;
+}
+.mainpage{
+    padding-left: 5%;
+}
+th{
+    padding-left: 50px;
+    height: 100px;
+    padding-right: 50px;
+
+}
+td{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+table{
+    border-collapse: collapse;
+}
+button{
+    height: 25px;
+    width: 100px;
+}

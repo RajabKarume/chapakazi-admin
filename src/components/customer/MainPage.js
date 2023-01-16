@@ -12,49 +12,61 @@ function MainPage(){
             <div className="table">
                 <table>
                     <thead>
-                        <tr>
+                        <tr className="row">
                         <th>Handyman details</th>
                         <th>Handyman name</th>
                         <th>Date</th>
                         <th>Speciality</th>
+                        <th></th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr className="row">
                             <td>john@email.com</td>
                             <td>john doe</td>
                             <td>nov 10, 1997</td>
                             <td>Plumber</td>
+                            <td><button>delete</button></td>
                         </tr>
-                        <tr>
+                        <tr className="row">
                             <td>john@email.com</td>
                             <td>john doe</td>
                             <td>nov 10, 1997</td>
                             <td>Plumber</td>
+                            <td><button>delete</button></td>
+
                         </tr>
-                        <tr>
+                        <tr className="row">
                             <td>john@email.com</td>
                             <td>john doe</td>
                             <td>nov 10, 1997</td>
                             <td>Plumber</td>
+                            <td><button>delete</button></td>
+
                         </tr>
-                        <tr>
+                        <tr className="row">
                             <td>john@email.com</td>
                             <td>john doe</td>
                             <td>nov 10, 1997</td>
                             <td>Plumber</td>
+                            <td><button>delete</button></td>
+
                         </tr>
-                        <tr>
+                        <tr className="row">
                             <td>john@email.com</td>
                             <td>john doe</td>
                             <td>nov 10, 1997</td>
                             <td>Plumber</td>
+                            <td><button>delete</button></td>
+
                         </tr>
-                        <tr>
+                        <tr className="row">
                             <td>john@email.com</td>
                             <td>john doe</td>
                             <td>nov 10, 1997</td>
                             <td>Plumber</td>
+                            <td><button>delete</button></td>
+
                         </tr>
                     </tbody>
                 </table>
