@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 function Dashboard() {
   return (
     <>
-      <div className='navbar'>
+      <div className='dashboard'>
       <Link to="#" className='menu-bars'>
-        
+
       </Link>
       </div>
     </>
