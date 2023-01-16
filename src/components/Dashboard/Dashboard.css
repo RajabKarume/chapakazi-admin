@@ -4,6 +4,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+
 }
 
 .menu-bars {
@@ -18,8 +19,8 @@
     justify-content: center;
     display: flex;
     position: fixed;
-    top: 0;
-    left: -100%;
+    top: 10;
+    /* left: -100%; */
     transition:850ms;
 }
 .nav-menu.active{
@@ -33,7 +34,7 @@
     align-items: center;
     padding: 8px 0px 8px 16px;
     list-style: none;
-    height: 60px;
+    height: 120px;
 }
 .nav-text a {
     text-decoration: none;
@@ -63,7 +64,9 @@
     justify-content: start;
     align-items: center;
 }
-
+.header{
+    /* background-color: yellow; */
+}
 span{
     margin-left: 16px;
 }

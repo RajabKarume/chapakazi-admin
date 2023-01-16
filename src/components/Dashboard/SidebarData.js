@@ -3,9 +3,16 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as BsIcons from "react-icons/bs";
 import * as FiIcons from "react-icons/fi";
+// import Dashboard from './Dashboard';
 
 
 export const SidebarData = [
+  {
+    title: "Admin Dashboard",
+    path: "/",
+    cName: "nav-text",
+  },
+
   {
     title: "Overview",
     path: "/dashboard",
@@ -15,7 +22,7 @@ export const SidebarData = [
 
   {
     title: "Handymen",
-    path: "/handymen",
+    path: "/handyman",
     icon: <FaIcons.FaTools />,
     cName: "nav-text",
   },
