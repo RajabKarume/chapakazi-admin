@@ -35,7 +35,7 @@ export const SidebarData = [
 
   {
     title: "Customers",
-    path: "/customers",
+    path: "/customer",
     icon: <BsIcons.BsPeopleFill />,
     cName: "nav-text",
   },
