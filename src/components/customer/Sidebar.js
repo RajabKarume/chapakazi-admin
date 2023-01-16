@@ -48,12 +48,14 @@ function Sidebar(){
                         <span className="option-name">Settings</span>
                     </div>
                 </div>
-                <div className="options">
-                    <img alt="" className="options-icon" src="https://cdn-icons-png.flaticon.com/128/3524/3524636.png" />
-                    <div className="option-info">
-                        <span className="option-name">Log out</span>
+                <Link to="/">
+                    <div className="options">
+                        <img alt="" className="options-icon" src="https://cdn-icons-png.flaticon.com/128/3524/3524636.png" />
+                        <div className="option-info">
+                            <span className="option-name">Log out</span>
+                        </div>
                     </div>
-                </div>
+                </Link>
                 
             </div>
         </div>

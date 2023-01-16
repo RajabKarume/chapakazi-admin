@@ -20,7 +20,7 @@ ul{
     padding-top: 5%;
 }
 .sidebar-h1{
-    color: #f4f4f4;
+    color: #A4A6B3;
     font-weight: 400;
 }
 .options-icon{
@@ -37,29 +37,46 @@ ul{
     padding-left: 7%;
     cursor: pointer;
     height: 100px;
-    
 }
 .options:hover{
     background-color: #395a83;
+
 }
+
 .sidebar-options{
     border-bottom: 0.2px solid white;
     margin-bottom: 40px;
+    width: 90%;
 }
 .option-name{
     font-size: 25px;
-    color: #f4f4f4;
+    color: #A4A6B3;    
+}
+.option-name:hover{
+    color: #f4f4f4;    
+
 }
 .table{
-    width: 100%;
+    width: 90%;
     border: 1px solid;
     font-size: 30px;
+    height: 50%;
+    overflow: scroll;
 }
 .row{
     border-bottom: 1px solid;
 }
+.customer-main{
+    background-color: #F7F8FC;
+    width: 100%;
+}
 .mainpage{
     padding-left: 5%;
+}
+.header{
+    text-align: left;
+    margin-bottom: 10%;
+    padding-top: 3%;
 }
 th{
     padding-left: 50px;
@@ -73,6 +90,8 @@ td{
 }
 table{
     border-collapse: collapse;
+    background-color: #ffffff;
+    
 }
 button{
     height: 25px;
