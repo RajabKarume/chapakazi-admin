@@ -1,26 +1,22 @@
 import React from 'react'
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import * as IoIcons from "react-icons/io";
-import * as GrIcons from "react-icons/gr";
 import * as BsIcons from "react-icons/bs";
-import * as FrIcons from "react-icons/fr";
-
-
+import * as FiIcons from "react-icons/fi";
 
 
 export const SidebarData = [
   {
     title: "Overview",
-    path: "/overview",
-    icon: <GrIcons.GrOverview />,
+    path: "/dashboard",
+    icon: <AiIcons.AiOutlinePieChart />,
     cName: "nav-text",
   },
 
   {
     title: "Handymen",
     path: "/handymen",
-    icon: <IoIcons.IoConstructOutline />,
+    icon: <FaIcons.FaTools />,
     cName: "nav-text",
   },
   {
@@ -40,7 +36,7 @@ export const SidebarData = [
   {
     title: "Settings",
     path: "/settings",
-    icon: <FrIcons.FiSettings />,
+    icon: <FiIcons.FiSettings />,
     cName: "nav-text",
   },
 
