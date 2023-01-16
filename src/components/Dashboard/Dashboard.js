@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import * as FaIcons from "react-icons/fa";
-import * as AiIcons from "react-icons/ai";
+// import * as FaIcons from "react-icons/fa";
+// import * as AiIcons from "react-icons/ai";
 import { SidebarData } from './SidebarData';
 import './Dashboard.css';
 import { IconContext }from 'react-icons';
@@ -18,16 +18,16 @@ function Dashboard() {
 
   return (
     <>
-      <div className="dashboard">
+      <div className="dashboard"> 
         <div className="dashboard-header">
-        <Link to="/dashboard">
+        {/* <Link to="/dashboard">
           <h1>Overview</h1>
-        </Link>
-        <h2>userprofile</h2>
+        </Link> */}
+        {/* <h2>userprofile</h2> */}
 
         
 
-        </div>
+        </div> 
 
         <IconContext.Provider value={{ color: "#fff" }}>
           <div className="dashboard-side">
