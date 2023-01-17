@@ -56,6 +56,8 @@ function AdminForm() {
             <input type="number" value={adminId} onChange={(e) => setAdminId(e.target.value)} required />
           </label>
         </div>
+        <button type="submit">Sign Up</button>
+        {message && <p>{message}</p>}
        
       </form>
       </div>
