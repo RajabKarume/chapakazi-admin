@@ -1,27 +1,24 @@
 import React from "react";
 import "./Login.css"
+import { Form, Input, Button } from "antd";
+import { UserOutlined, LockOutlined } from "@ant-design/icons";
+import { useState } from 'react'
 
 function LoginForm(){
 
-    return(
-        <div className="loginformdiv">
-             <div>
-                <h1>Log In to Admin Dashboard</h1>
-                <h2>Enter your email and password below</h2>
-            </div>
-            <div >
-                <p>Email address</p>
-                <form className="login form" >
-                    <input type="text" name="email" />
-                </form>
-                <p>Password</p>
-                <form>
-                    <input type="password" name="password" />
-                </form>
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
 
+    const handleSubmit = e => {
+      e.preventDefault();
+      // handle form submission logic here
+    };
 
-            </div>
-        </div>
-    )
-}
+    return (
+      <div>
+
+      </div>
+    );
+    };
 export default LoginForm
+
