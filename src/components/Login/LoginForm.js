@@ -34,6 +34,30 @@ function LoginForm(){
             borderRadius: "8px"
           }}
         >
+          <div className="info">
+          <h1>Log In to Admin<br></br> Dashboard</h1>
+           <p>Enter your email and password below</p>
+          </div>
+
+          <Form.Item>
+           <h3>Email</h3>
+            <Input
+              prefix={<UserOutlined style={{ color: "rgba(0,0,0,.25)" }} />}
+              placeholder="Email address"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+            />
+          </Form.Item>
+          <Form.Item>
+            <h3>Password</h3>
+            <Input
+              prefix={<LockOutlined style={{ color: "rgba(0,0,0,.25)" }} />}
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={e => setPassword(e.target.value)}
+            />
+          </Form.Item>
           
         </Form>
       </div>
