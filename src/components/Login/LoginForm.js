@@ -15,8 +15,27 @@ function LoginForm(){
     };
 
     return (
-      <div>
-
+      <div
+        style={{
+          backgroundImage: "url('bg-image-url')",
+          backgroundSize: "cover",
+          height: "100vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          backgroundRepeat: "no-repeat"
+        }}
+      >
+        <Form
+          onSubmit={handleSubmit}
+          style={{
+            background: "white",
+            padding: "32px",
+            borderRadius: "8px"
+          }}
+        >
+          
+        </Form>
       </div>
     );
     };
