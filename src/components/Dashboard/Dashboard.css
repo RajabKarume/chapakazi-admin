@@ -4,6 +4,21 @@
     display: inline;
 
 }
+/* .dashboard-main {
+    background-color: #F7F8FC;
+    width: 100%;
+} */
+
+.main {
+    padding-left: 5%;
+}
+
+.header{
+    text-align: left;
+        margin-bottom: 10%;
+        padding-top: 3%;
+        background-color: green;
+}
 /* .dashboard-header{ */
 /* justify-content: end; */
     /* flex: 3;
@@ -44,14 +59,14 @@
     border-radius: 50%;
     padding: 10px;
     cursor: pointer;
-} */
+} 
 
-/* .menu-bars {
+ .menu-bars {
     margin-left:2rem;
     font-size: 2rem;
     background: none;
-} */
-.nav-menu{
+} 
+.nav-menu{ 
     background-color: #0A3971;
     width: 250px;
     height: 100vh;
@@ -59,8 +74,29 @@
     display: flex;
     position: fixed;
     top: 0;
-    /* left: -100%; */
-    transition:850ms;
+    /* left: -100%;  */
+    /* transition:850ms; */
+/* } */
+.nav-menu {
+    background-color: #0A3971;
+    width: 250px;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    /* left: -100% */
+    transition: 850ms;
+}
+
+.dashboard-side {
+    background-color: #0A3971;
+    height: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+
 }
 .nav-menu.active{
     left: 0;
@@ -69,7 +105,7 @@
 
 .nav-text{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     padding: 8px 0px 8px 16px;
     list-style: none;

@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Dashboard.css';
 import { IconContext }from 'react-icons';
+import Main from './Main';
+
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faUser } from "@fortawesome/free-regular-svg-icons";
 // import * as FaIcons from "react-icons/fa";
@@ -12,22 +14,29 @@ import { IconContext }from 'react-icons';
 
 function Dashboard() {
 
-    const [sidebar, setSidebar] = useState(false);
+    const [sidebar] = useState(false);
     // const showSidebar = () => setSidebar(!sidebar);
     // const [trigger, setTrigger] = useState(false)
 
   return (
     <>
-      <div className="dashboard"> 
-        <div className="dashboard-header">
+      {/* <div className="dashboard">  */}
+        {/* <div className="header"> */}
         {/* <Link to="/dashboard">
           <h1>Overview</h1>
         </Link> */}
         {/* <h2>userprofile</h2> */}
 
-        
+        <div className="dashboard">
+            <div className="dashboard-side">
+                <SidebarData />
+            </div>
+            <div className="dashboard-main">
+                <Main header />
+            </div>
+        {/* </div */}
 
-        </div> 
+        {/* </div>  */}
 
         <IconContext.Provider value={{ color: "#fff" }}>
           <div className="dashboard-side">
