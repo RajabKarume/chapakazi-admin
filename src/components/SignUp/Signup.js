@@ -58,7 +58,11 @@ function AdminForm() {
         </div>
         <button type="submit">Sign Up</button>
         {message && <p>{message}</p>}
-       
+        <Link to="/" style={{textDecoration: "none"}}>
+              <h2 id="login-section">
+                Already have an account ?<span className="sign-up">Login</span>
+              </h2>
+            </Link>
       </form>
       </div>
   );
