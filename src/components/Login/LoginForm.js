@@ -3,6 +3,8 @@ import "./Login.css"
 import { Form, Input, Button } from "antd";
 import { UserOutlined, LockOutlined } from "@ant-design/icons";
 import { useState } from 'react'
+import { Link, useNavigate } from "react-router-dom";
+
 
 function LoginForm(){
 
@@ -17,7 +19,7 @@ function LoginForm(){
     return (
       <div
         style={{
-          backgroundImage: "url('bg-image-url')",
+          backgroundImage: "url('img1.png')",
           backgroundSize: "cover",
           height: "100vh",
           display: "flex",
@@ -62,6 +64,12 @@ function LoginForm(){
             <Button type="primary" htmlType="submit" className="btn1">
               Log In
             </Button>
+            <Link to="/adminSignup">
+              <p id="login-btn">
+                Do not have an account ?{" "}
+                <span className="sign-up">Sign Up</span>
+              </p>
+            </Link>
           </Form.Item>
         </Form>
       </div>
