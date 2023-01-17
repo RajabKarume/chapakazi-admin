@@ -75,3 +75,17 @@
     padding-bottom: 20px;
   }
 
+  #login-section{
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+  }
+
+  span .sign-up{
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  button{
+    size: 50px;
+  }
