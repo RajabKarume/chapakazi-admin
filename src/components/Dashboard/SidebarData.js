@@ -15,7 +15,7 @@ export const SidebarData = [
 
   {
     title: "Overview",
-    path: "/dashboard",
+    path: "/overview",
     icon: <AiIcons.AiOutlinePieChart />,
     cName: "nav-text",
   },

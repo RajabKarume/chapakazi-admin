@@ -3,6 +3,8 @@ import Sidebar from "../customer/Sidebar";
 import "./Handyman.css"
 import "../customer/Customer.css";
 import HandymanMain from "./HandymanMain";
+// import { SidebarData } from "../Dashboard/SidebarData";
+import Dashboard from "../Dashboard/Dashboard";
 
 
 
@@ -22,12 +24,14 @@ function Handyman(){
 
     return(
         <div className="customer">
+            
             <div className="customer-side">
-                <Sidebar />
+                <Dashboard/>
             </div>
             <div className="customer-main">
                 <HandymanMain header="Handyman" handyman={handyman} />
             </div>
+        
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import MainPage from "./MainPage";
-import Sidebar from "./Sidebar";
+// import Sidebar from "./Sidebar";
+import Dashboard from "../Dashboard/Dashboard";
 import "./Customer.css";
 
 function Customer(){
@@ -23,7 +24,7 @@ function Customer(){
     return(
         <div className="customer">
             <div className="customer-side">
-                <Sidebar />
+                <Dashboard />
             </div>
             <div className="customer-main">
                 <MainPage customer={customer} header="Customer"/>
