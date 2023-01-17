@@ -5,31 +5,28 @@ import "./Customer.css";
 
 function Customer(){
 
+
+    
     const [customer, setCustomer] = useState([])
 
-    // const token = localStorage.getItem("customer")
-    const option = {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer Token`,
-          "Content-Type": "Application/json",
-        },
-        body: JSON.stringify(customer),
-      };
+    const token = localStorage.getItem("admin")
     useEffect(()=>{
-        fetch("customer",option)
+        fetch("customers",{ headers: {
+            Authorization: `Bearer ${token}`,
+            "Content-Type": "Application/json",
+          },})
         .then((r)=>r.json())
-        .then((data)=> setCustomer(data) ) 
-    },[]) 
+        .then((user)=> setCustomer(user) ) 
+    },[token]) 
     console.log(customer)
-
+    
     return(
         <div className="customer">
             <div className="customer-side">
                 <Sidebar />
             </div>
             <div className="customer-main">
-                <MainPage header="Customer"/>
+                <MainPage customer={customer} header="Customer"/>
             </div>
         </div>
     )

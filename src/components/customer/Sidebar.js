@@ -12,12 +12,14 @@ function Sidebar(){
                 <h1 className="sidebar-h1">Admin Dashboard</h1>
             </div>
             <div className="sidebar-options">
+                <Link to="/dashboard">
                 <div className="options">
                     <img alt="" className="options-icon" src="https://cdn-icons-png.flaticon.com/128/3524/3524636.png" />
                     <div className="option-info">
                         <span className="option-name">Overview</span>
                     </div>
                 </div>
+                </Link>
                 <Link to="/handyman" >
                     <div className="options">
                         <img alt="" className="options-icon" src="https://cdn-icons-png.flaticon.com/128/3524/3524636.png" />
