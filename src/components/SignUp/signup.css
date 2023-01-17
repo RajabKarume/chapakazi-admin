@@ -70,4 +70,8 @@
     padding:0px 30px ;
     display: block;
   }
- 
+  .label-white{
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
