@@ -58,7 +58,11 @@ function LoginForm(){
               onChange={e => setPassword(e.target.value)}
             />
           </Form.Item>
-          
+          <Form.Item>
+            <Button type="primary" htmlType="submit" className="btn1">
+              Log In
+            </Button>
+          </Form.Item>
         </Form>
       </div>
     );
