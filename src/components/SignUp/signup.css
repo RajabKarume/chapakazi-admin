@@ -57,3 +57,17 @@
     }
   }
 
+  input {
+    border: none;
+    outline: none;
+    color: black;
+    padding: 0px 25px 15px 0px;
+    border-bottom: 2px solid var(--tertiary-color);
+    font-weight: 500px;
+  }
+
+  label{
+    padding:0px 30px ;
+    display: block;
+  }
+ 
