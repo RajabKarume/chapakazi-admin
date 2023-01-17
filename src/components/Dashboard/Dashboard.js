@@ -14,7 +14,7 @@ import Main from './Main';
 
 function Dashboard() {
 
-    const [sidebar] = useState(false);
+    const [sidebar, setSidebar] = useState(false);
     // const showSidebar = () => setSidebar(!sidebar);
     // const [trigger, setTrigger] = useState(false)
 
@@ -28,13 +28,13 @@ function Dashboard() {
         {/* <h2>userprofile</h2> */}
 
         <div className="dashboard">
-            <div className="dashboard-side">
+            {/* <div className="dashboard-side">
                 <SidebarData />
             </div>
             <div className="dashboard-main">
-                <Main header />
-            </div>
-        {/* </div */}
+                <Main />
+            </div>  */}
+         </div>
 
         {/* </div>  */}
 
@@ -67,7 +67,7 @@ function Dashboard() {
             </ul>
           </nav>
         </IconContext.Provider>
-      </div>
+      {/* </div> */}
     </>
   );
 }
