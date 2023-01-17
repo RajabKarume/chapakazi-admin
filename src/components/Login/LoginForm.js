@@ -13,7 +13,6 @@ function LoginForm(){
 
     const handleSubmit = e => {
       e.preventDefault();
-      // handle form submission logic here
     };
 
     return (
@@ -76,4 +75,3 @@ function LoginForm(){
     );
     };
 export default LoginForm
-
