@@ -15,6 +15,7 @@ function App() {
           <Route path="/customer" element={<Customer />} />
           <Route path="/handyman" element={<Handyman />} />
           {/* <Route path="/settings" element={<Settings />} /> */}
+          <Route path="/adminSignup" element={<Signup />} />
           <Route path="/" element={<Login />} />
         </Routes>
       </BrowserRouter>
