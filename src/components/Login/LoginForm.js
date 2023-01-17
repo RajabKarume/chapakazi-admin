@@ -1,7 +1,6 @@
 import React from "react";
 import "./Login.css"
 
-
 function LoginForm(){
 
     return(
@@ -19,7 +18,7 @@ function LoginForm(){
                 <form>
                     <input type="password" name="password" />
                 </form>
-                
+
 
             </div>
         </div>
