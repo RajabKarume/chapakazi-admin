@@ -1,21 +1,21 @@
 import React from "react";
-import "./Customer.css";
-import CustomerTable from "./CustomerTable";
+import "../customer/Customer.css";
+import HandymanTable from "./HandymanTable";
 
-
-function MainPage({ customer}){
+function HandymanMain({ handyman}){
+    
     return(
         <div className="mainpage">
             <div className="header">
-                <h1>Customers</h1>
+                <h1>Handymen</h1>
             </div>
             <div className="table">
                
-                <CustomerTable  customer={customer} />
+                <HandymanTable handyman={handyman}  />
                 
             </div>
         </div>
     )
 }
 
-export default MainPage
+export default HandymanMain
