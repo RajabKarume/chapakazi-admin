@@ -40,7 +40,17 @@ function AdminForm() {
             <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
           </label>
         </div>
-        
+        <div className="form-row">
+          <label className="label-white">
+            Password
+            <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+          </label>
+          <label className="label-white">
+            Confirm Password
+            <input type="password" value={passwordConfirmation} onChange={(e) => setPasswordConfirmation(e.target.value)} required />
+          </label>
+        </div>
+      
       </form>
       </div>
   );
