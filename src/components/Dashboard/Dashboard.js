@@ -5,7 +5,7 @@ import * as FaIcons from "react-icons/fa";
 import { SidebarData } from './SidebarData';
 import './Dashboard.css';
 import { IconContext }from 'react-icons';
-import Main from './Main';
+
 // import Handyman from '../handyman/Handyman';
 // import Customer from '../customer/Customer';
 
