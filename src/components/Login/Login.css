@@ -1,15 +1,29 @@
-.login{
-    background-image: url("https://img.freepik.com/free-photo/part-construction-worker-with-tools-belt_329181-3769.jpg");
-    object-fit: cover;
-    align-items: center;
-    
-
+.info{
+    padding: 30px;
 }
-.loginformdiv{
-    background-color: #f4f4f4;
-    position: absolute;
-    width: 1280px;
-    height: 832px;
-    left: 0px;
-    top: 0px;
+
+h3{
+    font-size: 16px;
+    font-weight: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 10px;
+    margin-bottom: 35px;
+    text-align: left;
+    margin-top: 35px;
+}
+
+#login-btn {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    color:black;
+  }
+.sign-up{
+    color:#0a3971;
 }
