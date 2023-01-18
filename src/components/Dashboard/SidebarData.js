@@ -13,12 +13,12 @@ export const SidebarData = [
     cName: "nav-text",
   },
 
-  {
-    title: "Overview",
-    path: "/overview",
-    icon: <AiIcons.AiOutlinePieChart />,
-    cName: "nav-text",
-  },
+  // {
+  //   title: "Overview",
+  //   path: "/overview",
+  //   icon: <AiIcons.AiOutlinePieChart />,
+  //   cName: "nav-text",
+  // },
 
   {
     title: "Handymen",

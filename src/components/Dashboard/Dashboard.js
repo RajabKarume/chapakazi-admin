@@ -22,6 +22,7 @@ function Dashboard() {
     // const showSidebar = () => setSidebar(!sidebar);
     // const [trigger, setTrigger] = useState(false)
 
+    // function toggle
   return (
     <div>
       <IconContext.Provider value={{ color: "#fff" }}>
