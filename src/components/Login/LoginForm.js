@@ -1,8 +1,11 @@
-import React from "react";
+import React, {  useState } from "react";
+// import {  Link } from "react-router-dom";
+import Customer from "../customer/Customer";
+// import Dashboard from "../Dashboard/Dashboard";
 import "./Login.css"
 import { Form, Input, Button } from "antd";
 import { UserOutlined, LockOutlined } from "@ant-design/icons";
-import { useState } from 'react'
+// import { useState } from 'react'
 import { Link, useNavigate } from "react-router-dom";
 import { Navigate } from "react-router-dom"
 

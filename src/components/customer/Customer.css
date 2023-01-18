@@ -57,14 +57,19 @@ ul{
 
 }
 .table{
-    width: 90%;
+    width: 120%;
     border: 1px solid;
     font-size: 30px;
-    height: 50%;
+    height: 20%;
     overflow: scroll;
+    /* padding-left: 200px; */
+}
+.desc{
+    overflow: auto;
 }
 .row{
     border-bottom: 1px solid;
+    height: 5px;
 }
 .customer-main{
     background-color: #F7F8FC;
@@ -75,18 +80,19 @@ ul{
 }
 .header{
     text-align: left;
-    margin-bottom: 10%;
-    padding-top: 3%;
+    /* margin-bottom: 10%; */
+    /* padding-top: ; */
 }
 th{
-    padding-left: 50px;
-    height: 100px;
-    padding-right: 50px;
+    padding-left: 280px;
+    height: 10px;
+    padding-right: 20px;
 
 }
 td{
-    padding-left: 50px;
+    padding-left: 280px;
     padding-right: 50px;
+    max-height: 10px;
 }
 table{
     border-collapse: collapse;

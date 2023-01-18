@@ -13,12 +13,12 @@ export const SidebarData = [
     cName: "nav-text",
   },
 
-  {
-    title: "Overview",
-    path: "/dashboard",
-    icon: <AiIcons.AiOutlinePieChart />,
-    cName: "nav-text",
-  },
+  // {
+  //   title: "Overview",
+  //   path: "/overview",
+  //   icon: <AiIcons.AiOutlinePieChart />,
+  //   cName: "nav-text",
+  // },
 
   {
     title: "Handymen",
@@ -49,7 +49,7 @@ export const SidebarData = [
 
   {
     title: "Log Out",
-    path: "/logout",
+    path: "/",
     icon: <AiIcons.AiOutlineLogout />,
     cName: "nav-text",
   },
