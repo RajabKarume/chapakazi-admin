@@ -4,16 +4,41 @@ import { Form, Input, Button } from "antd";
 import { UserOutlined, LockOutlined } from "@ant-design/icons";
 import { useState } from 'react'
 import { Link, useNavigate } from "react-router-dom";
-
+import { Navigate } from "react-router-dom"
 
 function LoginForm(){
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    // const history = useHistory();
+
 
     const handleSubmit = e => {
       e.preventDefault();
-    };
+
+      //Fetch post request
+      fetch("https://api/login", {
+          method: "POST",
+          headers: {
+              "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ email: email, password: password })
+      })
+      .then(res => res.json())
+      .then(data => {
+          if (data.success) {
+              //Redirect to dashboard
+              // useNavigate("/dashboard");
+            return <Navigate replace to="/dashboard" />;
+          } else {
+              //Show error message
+              alert("Invalid email or password");
+          }
+      })
+      .catch(error => {
+          console.error("Error:", error);
+      });
+  };
 
     return (
       <div
@@ -60,7 +85,7 @@ function LoginForm(){
             />
           </Form.Item>
           <Form.Item>
-            <Button type="primary" htmlType="submit" className="btn1">
+            <Button type="primary" htmlType="submit" className="btn1" onClick={handleSubmit}>
               Log In
             </Button>
             <Link to="/adminSignup">
