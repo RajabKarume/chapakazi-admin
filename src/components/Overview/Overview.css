@@ -1,3 +1,18 @@
-.overview{
+.main-header{
     display: flex;
+    margin-top: 40px;
+}
+.nav-item{
+    margin-left:20px ;
+}
+
+.main-header ul{
+    display: inline-flex;
+    padding-left: 490px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-profile{
+    padding-left: 150px;
 }
