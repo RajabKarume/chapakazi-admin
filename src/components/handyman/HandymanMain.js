@@ -6,9 +6,9 @@ function HandymanMain({ handyman}){
     
     return(
         <div className="mainpage">
-            <div className="header">
-                <h1>Handymen</h1>
-            </div>
+            {/* <div className="header"> */}
+                {/* <h1>Handymen</h1> */}
+            {/* </div> */}
             <div className="table">
                
                 <HandymanTable handyman={handyman}  />

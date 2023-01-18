@@ -41,7 +41,7 @@ function HandymanTable({handyman}){
                             <td>{handy.location}</td>
                             <td>{handy.rating}</td>
                             <td>{handy.speciality}</td>
-                            <td>{handy.description}</td>
+                            <td className="desc">{handy.description}</td>
                             <td ><button  onClick={()=>handleDelete(handy.id)}>delete</button></td>
                         </tr>
                        
