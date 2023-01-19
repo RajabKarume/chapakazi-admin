@@ -1,0 +1,99 @@
+.customer{
+    display: flex;
+}
+.customer-side{
+    height: 100vh;
+    background-color: #0A3971;
+    width: 25%;
+}
+ul{
+    list-style-type: none;
+}
+.sidebar-options{
+    text-align: left;
+}
+.sidebar-bottom{
+    text-align: left;
+}
+.sidebar-header{
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+.sidebar-h1{
+    color: #A4A6B3;
+    font-weight: 400;
+}
+.options-icon{
+    height: 25px;
+    width: 25px;
+    padding-right: 70px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    object-fit: cover;
+}
+.options{
+    display: flex;
+    align-items: center;
+    padding-left: 7%;
+    cursor: pointer;
+    height: 100px;
+}
+.options:hover{
+    background-color: #395a83;
+
+}
+
+.sidebar-options{
+    border-bottom: 0.2px solid white;
+    margin-bottom: 40px;
+    width: 90%;
+}
+.option-name{
+    font-size: 25px;
+    color: #A4A6B3;    
+}
+.option-name:hover{
+    color: #f4f4f4;    
+
+}
+.table{
+    width: 90%;
+    border: 1px solid;
+    font-size: 30px;
+    height: 50%;
+    overflow: scroll;
+}
+.row{
+    border-bottom: 1px solid;
+}
+.customer-main{
+    background-color: #F7F8FC;
+    width: 100%;
+}
+.mainpage{
+    padding-left: 5%;
+}
+.header{
+    text-align: left;
+    margin-bottom: 10%;
+    padding-top: 3%;
+}
+th{
+    padding-left: 50px;
+    height: 100px;
+    padding-right: 50px;
+
+}
+td{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+table{
+    border-collapse: collapse;
+    background-color: #ffffff;
+    
+}
+button{
+    height: 25px;
+    width: 100px;
+}

@@ -1,0 +1,15 @@
+.login{
+    background-image: url("https://img.freepik.com/free-photo/part-construction-worker-with-tools-belt_329181-3769.jpg");
+    object-fit: cover;
+    align-items: center;
+    
+
+}
+.loginformdiv{
+    background-color: #f4f4f4;
+    position: absolute;
+    width: 1280px;
+    height: 832px;
+    left: 0px;
+    top: 0px;
+}
