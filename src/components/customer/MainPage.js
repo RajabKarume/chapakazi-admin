@@ -1,75 +1,18 @@
 import React from "react";
 import "./Customer.css";
+import CustomerTable from "./CustomerTable";
 
 
-function MainPage({header}){
-
+function MainPage({ customer}){
     return(
         <div className="mainpage">
             <div className="header">
-                <h1>{header}</h1>
+                <h1>Customers</h1>
             </div>
             <div className="table">
-                <table>
-                    <thead>
-                        <tr className="row">
-                        <th>Handyman details</th>
-                        <th>Handyman name</th>
-                        <th>Date</th>
-                        <th>Speciality</th>
-                        <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr className="row">
-                            <td>john@email.com</td>
-                            <td>john doe</td>
-                            <td>nov 10, 1997</td>
-                            <td>Plumber</td>
-                            <td><button>delete</button></td>
-                        </tr>
-                        <tr className="row">
-                            <td>john@email.com</td>
-                            <td>john doe</td>
-                            <td>nov 10, 1997</td>
-                            <td>Plumber</td>
-                            <td><button>delete</button></td>
-
-                        </tr>
-                        <tr className="row">
-                            <td>john@email.com</td>
-                            <td>john doe</td>
-                            <td>nov 10, 1997</td>
-                            <td>Plumber</td>
-                            <td><button>delete</button></td>
-
-                        </tr>
-                        <tr className="row">
-                            <td>john@email.com</td>
-                            <td>john doe</td>
-                            <td>nov 10, 1997</td>
-                            <td>Plumber</td>
-                            <td><button>delete</button></td>
-
-                        </tr>
-                        <tr className="row">
-                            <td>john@email.com</td>
-                            <td>john doe</td>
-                            <td>nov 10, 1997</td>
-                            <td>Plumber</td>
-                            <td><button>delete</button></td>
-
-                        </tr>
-                        <tr className="row">
-                            <td>john@email.com</td>
-                            <td>john doe</td>
-                            <td>nov 10, 1997</td>
-                            <td>Plumber</td>
-                            <td><button>delete</button></td>
-
-                        </tr>
-                    </tbody>
-                </table>
+               
+                <CustomerTable  customer={customer} />
+                
             </div>
         </div>
     )
