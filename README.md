@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Chapakazi Admin is a system that allows users to login,filters admin specified roles and allows only authenticated admin tokens to log in. Once logged in, the admin can view a list of handymen who are registered in the system and customers who have requested for services. 
+Chapakazi Admin is a system that allows users to login,filters admin specified roles and allows only authenticated admin tokens to log in. Once logged in, the admin can view a list of handymen who are registered in the system,their specialties,the rates they charge and a detailed description of the services they can offer.Also the customers who have requested for services and the specific handyman picked per customer need. 
 To get started with the project, you will be required to clone this repository. Clone it here
 
 ## Setup Requirements
