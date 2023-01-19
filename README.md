@@ -2,12 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Chapakazi Admin is a system that allows users to login,filters admin specified roles and allows only authenticated admin tokens to log in. Once logged in, the admin can view a list of handymen who are registered in the system,their specialties,the rates they charge and a detailed description of the services they can offer.Also the customers who have requested for services and the specific handyman picked per customer need. 
+## Authors:
+1. [Ivy Murage](https://github.com/Murage-Ivy)
+2. [Lynette Ronnoh](https://github.com/Rlynette)
+3. [Noela Murugi](https://github.com/Noela-Murugi)
+4. [Pauline Ndemo](https://github.com/Paulinendemo)
+5. [Rajab Karume](https://github.com/RajabKarume)
+
+**Chapakazi** Admin is a system that allows users to login,filters admin specified roles and allows only authenticated admin tokens to log in. Once logged in, the admin can view a list of handymen who are registered in the system,their specialties,the rates they charge and a detailed description of the services they can offer.Also the customers who have requested for services and the specific handyman picked per customer need. 
 To get started with the project, you will be required to clone this repository. Clone it here
+
+## Technologies Used
++ ReactJs npm -Version 6.14.17
++ Ruby on Rails
++ Css
++ Figma
 
 ## Setup Requirements
 
-A smartphone/tablet or a pic A WebBrowser Internet Connection
+A smartphone/tablet or a pc A WebBrowser Internet Connection
 
 
 ## Available Scripts
@@ -32,8 +45,6 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Open http://localhost:3000 to view it in your browser. The page will reload when you make changes.
 This projects frontend server will run on http://localhost:3000 Visit http://localhost:3000 to view the projects homepage. You will be required to sign up and create an account before you can be granted access to the full application. You are allowed to create an account when signing up. For subsequent access, you will be required to sign up,login so your details persist the next time you visit the site
 
-## Project Technologies
-Frontend React - npm -Version 6.14.17
 
 ## Frontend repository link
 https://github.com/RajabKarume/chapakazi-admin
@@ -47,7 +58,7 @@ Frontend vercel link
 
 
 
- Backend railways link
+Backend railways link
 
 
 
