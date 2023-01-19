@@ -52,7 +52,7 @@ function LoginForm(){
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          backgroundRepeat: "no-repeat"
+          backgroundRepeat: "no-repeat",
         }}
       >
         <Form
@@ -60,21 +60,23 @@ function LoginForm(){
           style={{
             background: "white",
             padding: "32px",
-            borderRadius: "8px"
+            borderRadius: "8px",
           }}
         >
           <div className="info">
-          <h1>Log In to Admin<br></br> Dashboard</h1>
-           <p>Enter your email and password below</p>
+            <h1>
+              Log In to Admin<br></br> Dashboard
+            </h1>
+            <p>Enter your email and password below</p>
           </div>
 
           <Form.Item>
-           <h3>Email</h3>
+            <h3>Email</h3>
             <Input
               prefix={<UserOutlined style={{ color: "rgba(0,0,0,.25)" }} />}
               placeholder="Email address"
               value={email}
-              onChange={e => setEmail(e.target.value)}
+              onChange={(e) => setEmail(e.target.value)}
             />
           </Form.Item>
           <Form.Item>
@@ -84,11 +86,16 @@ function LoginForm(){
               type="password"
               placeholder="Password"
               value={password}
-              onChange={e => setPassword(e.target.value)}
+              onChange={(e) => setPassword(e.target.value)}
             />
           </Form.Item>
           <Form.Item>
-            <Button type="primary" htmlType="submit" className="btn1" onClick={handleSubmit}>
+            <Button
+              type="primary"
+              htmlType="submit"
+              className="btn1"
+              onClick={handleSubmit}
+            >
               Log In
             </Button>
             <Link to="/adminSignup">
@@ -97,6 +104,14 @@ function LoginForm(){
                 <span className="sign-up">Sign Up</span>
               </p>
             </Link>
+            <Button
+              type="primary"
+              htmlType="submit"
+              className="btn1"
+              onClick={handleSubmit}
+            >
+              Log Out
+            </Button>
           </Form.Item>
         </Form>
       </div>
